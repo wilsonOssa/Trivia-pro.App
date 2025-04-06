@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
             this.cmbNivel = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,6 +42,7 @@
             this.pgbTiempoRestante = new System.Windows.Forms.ProgressBar();
             this.lblPuntaje = new System.Windows.Forms.Label();
             this.btnReiniciar = new System.Windows.Forms.Button();
+            this.tmrTemporizador = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // cmbCategoria
@@ -138,6 +140,7 @@
             this.btnEnviarRespuesta.TabIndex = 9;
             this.btnEnviarRespuesta.Text = "Enviar Respuesta";
             this.btnEnviarRespuesta.UseVisualStyleBackColor = true;
+            this.btnEnviarRespuesta.Click += new System.EventHandler(this.btnEnviarRespuesta_Click);
             // 
             // pgbTiempoRestante
             // 
@@ -163,6 +166,10 @@
             this.btnReiniciar.TabIndex = 12;
             this.btnReiniciar.Text = "Reiniciar";
             this.btnReiniciar.UseVisualStyleBackColor = true;
+            // 
+            // tmrTemporizador
+            // 
+            this.tmrTemporizador.Tick += new System.EventHandler(this.tmrTemporizador_Tick);
             // 
             // Form1
             // 
@@ -204,6 +211,7 @@
         private System.Windows.Forms.ProgressBar pgbTiempoRestante;
         private System.Windows.Forms.Label lblPuntaje;
         private System.Windows.Forms.Button btnReiniciar;
+        private System.Windows.Forms.Timer tmrTemporizador;
     }
 }
 

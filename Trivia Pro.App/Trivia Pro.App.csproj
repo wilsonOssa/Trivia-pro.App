@@ -55,6 +55,7 @@
     <Compile Include="Pregunta.cs" />
     <Compile Include="PreguntaDificil.cs" />
     <Compile Include="PreguntaFacil.cs" />
+    <Compile Include="PreguntaFactory.cs" />
     <Compile Include="PreguntaMedia.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

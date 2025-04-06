@@ -1,0 +1,10 @@
+C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\bin\Debug\Trivia Pro.App.exe.config
+C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\bin\Debug\Trivia Pro.App.exe
+C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\bin\Debug\Trivia Pro.App.pdb
+C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\obj\Debug\Trivia Pro.App.csproj.AssemblyReference.cache
+C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\obj\Debug\Trivia_Pro.App.Form1.resources
+C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\obj\Debug\Trivia_Pro.App.Properties.Resources.resources
+C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\obj\Debug\Trivia Pro.App.csproj.GenerateResource.cache
+C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\obj\Debug\Trivia Pro.App.csproj.CoreCompileInputs.cache
+C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\obj\Debug\Trivia Pro.App.exe
+C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\obj\Debug\Trivia Pro.App.pdb
