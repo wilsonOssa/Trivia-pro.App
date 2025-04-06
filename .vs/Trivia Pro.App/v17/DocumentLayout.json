@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\wilso\\OneDrive\\Escritorio\\Nueva carpeta\\Trivia Pro.App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6A71A51A-B52E-4D0E-BA3C-34F77BE456B1}|Trivia Pro.App\\Trivia Pro.App.csproj|c:\\users\\wilso\\onedrive\\escritorio\\nueva carpeta\\trivia pro.app\\trivia pro.app\\preguntafacil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A71A51A-B52E-4D0E-BA3C-34F77BE456B1}|Trivia Pro.App\\Trivia Pro.App.csproj|solutionrelative:trivia pro.app\\preguntafacil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A71A51A-B52E-4D0E-BA3C-34F77BE456B1}|Trivia Pro.App\\Trivia Pro.App.csproj|c:\\users\\wilso\\onedrive\\escritorio\\nueva carpeta\\trivia pro.app\\trivia pro.app\\preguntamedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A71A51A-B52E-4D0E-BA3C-34F77BE456B1}|Trivia Pro.App\\Trivia Pro.App.csproj|solutionrelative:trivia pro.app\\preguntamedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A71A51A-B52E-4D0E-BA3C-34F77BE456B1}|Trivia Pro.App\\Trivia Pro.App.csproj|c:\\users\\wilso\\onedrive\\escritorio\\nueva carpeta\\trivia pro.app\\trivia pro.app\\preguntadificil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A71A51A-B52E-4D0E-BA3C-34F77BE456B1}|Trivia Pro.App\\Trivia Pro.App.csproj|solutionrelative:trivia pro.app\\preguntadificil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A71A51A-B52E-4D0E-BA3C-34F77BE456B1}|Trivia Pro.App\\Trivia Pro.App.csproj|c:\\users\\wilso\\onedrive\\escritorio\\nueva carpeta\\trivia pro.app\\trivia pro.app\\pregunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A71A51A-B52E-4D0E-BA3C-34F77BE456B1}|Trivia Pro.App\\Trivia Pro.App.csproj|solutionrelative:trivia pro.app\\pregunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A71A51A-B52E-4D0E-BA3C-34F77BE456B1}|Trivia Pro.App\\Trivia Pro.App.csproj|c:\\users\\wilso\\onedrive\\escritorio\\nueva carpeta\\trivia pro.app\\trivia pro.app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6A71A51A-B52E-4D0E-BA3C-34F77BE456B1}|Trivia Pro.App\\Trivia Pro.App.csproj|solutionrelative:trivia pro.app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +42,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PreguntaDificil.cs",
+              "DocumentMoniker": "C:\\Users\\wilso\\OneDrive\\Escritorio\\Nueva carpeta\\Trivia Pro.App\\Trivia Pro.App\\PreguntaDificil.cs",
+              "RelativeDocumentMoniker": "Trivia Pro.App\\PreguntaDificil.cs",
+              "ToolTip": "C:\\Users\\wilso\\OneDrive\\Escritorio\\Nueva carpeta\\Trivia Pro.App\\Trivia Pro.App\\PreguntaDificil.cs",
+              "RelativeToolTip": "Trivia Pro.App\\PreguntaDificil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T22:21:28.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PreguntaMedia.cs",
+              "DocumentMoniker": "C:\\Users\\wilso\\OneDrive\\Escritorio\\Nueva carpeta\\Trivia Pro.App\\Trivia Pro.App\\PreguntaMedia.cs",
+              "RelativeDocumentMoniker": "Trivia Pro.App\\PreguntaMedia.cs",
+              "ToolTip": "C:\\Users\\wilso\\OneDrive\\Escritorio\\Nueva carpeta\\Trivia Pro.App\\Trivia Pro.App\\PreguntaMedia.cs",
+              "RelativeToolTip": "Trivia Pro.App\\PreguntaMedia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T22:19:21.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PreguntaFacil.cs",
+              "DocumentMoniker": "C:\\Users\\wilso\\OneDrive\\Escritorio\\Nueva carpeta\\Trivia Pro.App\\Trivia Pro.App\\PreguntaFacil.cs",
+              "RelativeDocumentMoniker": "Trivia Pro.App\\PreguntaFacil.cs",
+              "ToolTip": "C:\\Users\\wilso\\OneDrive\\Escritorio\\Nueva carpeta\\Trivia Pro.App\\Trivia Pro.App\\PreguntaFacil.cs",
+              "RelativeToolTip": "Trivia Pro.App\\PreguntaFacil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T22:15:43.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pregunta.cs",
+              "DocumentMoniker": "C:\\Users\\wilso\\OneDrive\\Escritorio\\Nueva carpeta\\Trivia Pro.App\\Trivia Pro.App\\Pregunta.cs",
+              "RelativeDocumentMoniker": "Trivia Pro.App\\Pregunta.cs",
+              "ToolTip": "C:\\Users\\wilso\\OneDrive\\Escritorio\\Nueva carpeta\\Trivia Pro.App\\Trivia Pro.App\\Pregunta.cs",
+              "RelativeToolTip": "Trivia Pro.App\\Pregunta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T22:14:00.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\wilso\\OneDrive\\Escritorio\\Nueva carpeta\\Trivia Pro.App\\Trivia Pro.App\\Form1.cs",
               "RelativeDocumentMoniker": "Trivia Pro.App\\Form1.cs",
