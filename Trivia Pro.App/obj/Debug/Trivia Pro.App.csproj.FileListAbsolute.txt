@@ -8,3 +8,6 @@ C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\o
 C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\obj\Debug\Trivia Pro.App.csproj.CoreCompileInputs.cache
 C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\obj\Debug\Trivia Pro.App.exe
 C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\obj\Debug\Trivia Pro.App.pdb
+C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\wilso\OneDrive\Escritorio\Nueva carpeta\Trivia Pro.App\Trivia Pro.App\obj\Debug\Trivia P.5B204813.Up2Date
