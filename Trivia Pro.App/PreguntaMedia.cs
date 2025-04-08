@@ -1,20 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Trivia_Pro.App
+﻿namespace Trivia_Pro.App
 {
     public class PreguntaMedia : Pregunta
     {
         public PreguntaMedia()
         {
-            Tiempo = 15;
-            Puntaje = 10;
-            Nivel = "Medio";
+            Tiempo = 15; // 15 segundos para preguntas de nivel Medio
         }
-        public override int Puntaje { get; }
-    }
 
+        public override int Puntaje => 10; // 10 puntos por respuesta correcta en nivel Medio
+    }
 }

@@ -43,6 +43,7 @@
             this.lblPuntaje = new System.Windows.Forms.Label();
             this.btnReiniciar = new System.Windows.Forms.Button();
             this.tmrTemporizador = new System.Windows.Forms.Timer(this.components);
+            this.btnIniciar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cmbCategoria
@@ -171,11 +172,22 @@
             // 
             this.tmrTemporizador.Tick += new System.EventHandler(this.tmrTemporizador_Tick);
             // 
+            // btnIniciar
+            // 
+            this.btnIniciar.Location = new System.Drawing.Point(170, 364);
+            this.btnIniciar.Name = "btnIniciar";
+            this.btnIniciar.Size = new System.Drawing.Size(75, 23);
+            this.btnIniciar.TabIndex = 13;
+            this.btnIniciar.Text = "Iniciar";
+            this.btnIniciar.UseVisualStyleBackColor = true;
+            this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnIniciar);
             this.Controls.Add(this.btnReiniciar);
             this.Controls.Add(this.lblPuntaje);
             this.Controls.Add(this.pgbTiempoRestante);
@@ -212,6 +224,7 @@
         private System.Windows.Forms.Label lblPuntaje;
         private System.Windows.Forms.Button btnReiniciar;
         private System.Windows.Forms.Timer tmrTemporizador;
+        private System.Windows.Forms.Button btnIniciar;
     }
 }
 

@@ -1,949 +1,214 @@
 {
     "Preguntas": [
         {
-            "Texto": "¿Cuál es el planeta más cercano al Sol?",
-            "Opciones": [ "Venus", "Marte", "Mercurio", "Júpiter" ],
+            "Texto": "Â¿CuÃ¡l es el planeta mÃ¡s cercano al Sol?",
+            "Opciones": [ "Venus", "Marte", "Mercurio", "JÃºpiter" ],
             "RespuestaCorrecta": "Mercurio",
             "Categoria": "Ciencia",
-            "Nivel": "Fácil"
+            "Nivel": "FÃ¡cil"
         },
         {
-            "Texto": "¿Qué gas liberan las plantas durante la fotosíntesis?",
-            "Opciones": [ "Dióxido de carbono", "Oxígeno", "Nitrógeno", "Hidrógeno" ],
-            "RespuestaCorrecta": "Oxígeno",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué partícula subatómica tiene carga negativa?",
-            "Opciones": [ "Protón", "Neutrón", "Electrón", "Positrón" ],
-            "RespuestaCorrecta": "Electrón",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué órgano bombea la sangre en el cuerpo humano?",
-            "Opciones": [ "Cerebro", "Estómago", "Corazón", "Pulmones" ],
-            "RespuestaCorrecta": "Corazón",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Cuál es el estado de la materia que tiene forma y volumen definidos?",
-            "Opciones": [ "Sólido", "Líquido", "Gaseoso", "Plasma" ],
-            "RespuestaCorrecta": "Sólido",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Cuál es la principal fuente de energía para la Tierra?",
-            "Opciones": [ "El Sol", "El viento", "El agua", "La tierra" ],
-            "RespuestaCorrecta": "El Sol",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué forma tiene la órbita de la Tierra alrededor del Sol?",
-            "Opciones": [ "Circular", "Elíptica", "Parabólica", "Hipérbola" ],
-            "RespuestaCorrecta": "Elíptica",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué fenómeno explica el cambio de las estaciones?",
-            "Opciones": [ "La rotación de la Tierra", "La inclinación del eje terrestre", "La órbita lunar", "El movimiento de los planetas" ],
-            "RespuestaCorrecta": "La inclinación del eje terrestre",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Cómo se llama el proceso mediante el cual las orugas se transforman en mariposas?",
-            "Opciones": [ "Metamorfosis", "Transmutación", "Evolución", "Regeneración" ],
-            "RespuestaCorrecta": "Metamorfosis",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué instrumento se utiliza para medir la temperatura?",
-            "Opciones": [ "Barómetro", "Termómetro", "Higrómetro", "Anemómetro" ],
-            "RespuestaCorrecta": "Termómetro",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Cuál es el principal componente del Sol?",
-            "Opciones": [ "Oxígeno", "Hierro", "Hidrógeno", "Carbono" ],
-            "RespuestaCorrecta": "Hidrógeno",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué fenómeno ocurre cuando la Luna se interpone entre la Tierra y el Sol?",
-            "Opciones": [ "Eclipse lunar", "Eclipse solar", "Amanecer", "Atardecer" ],
-            "RespuestaCorrecta": "Eclipse solar",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué órgano permite la respiración en los seres humanos?",
-            "Opciones": [ "Hígado", "Riñón", "Pulmones", "Estómago" ],
-            "RespuestaCorrecta": "Pulmones",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Cuál es la función principal de las raíces en las plantas?",
-            "Opciones": [ "Fotosíntesis", "Reproducción", "Absorber agua y nutrientes", "Floración" ],
-            "RespuestaCorrecta": "Absorber agua y nutrientes",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué mineral es esencial para la formación de huesos?",
-            "Opciones": [ "Hierro", "Calcio", "Zinc", "Potasio" ],
-            "RespuestaCorrecta": "Calcio",
-            "Categoria": "Ciencia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué elemento químico tiene el símbolo 'Fe'?",
-            "Opciones": [ "Flúor", "Hierro", "Oro", "Plata" ],
-            "RespuestaCorrecta": "Hierro",
+            "Texto": "Â¿QuÃ© gas es esencial para la respiraciÃ³n humana?",
+            "Opciones": [ "OxÃ­geno", "DiÃ³xido de carbono", "NitrÃ³geno", "Helio" ],
+            "RespuestaCorrecta": "OxÃ­geno",
             "Categoria": "Ciencia",
             "Nivel": "Medio"
         },
         {
-            "Texto": "¿Qué mide la unidad 'Newton'?",
-            "Opciones": [ "Masa", "Fuerza", "Temperatura", "Presión" ],
-            "RespuestaCorrecta": "Fuerza",
+            "Texto": "Â¿QuÃ© partÃ­cula subatÃ³mica determina el nÃºmero atÃ³mico de un elemento?",
+            "Opciones": [ "ProtÃ³n", "NeutrÃ³n", "ElectrÃ³n", "PositrÃ³n" ],
+            "RespuestaCorrecta": "ProtÃ³n",
             "Categoria": "Ciencia",
-            "Nivel": "Medio"
+            "Nivel": "DifÃ­cil"
         },
         {
-            "Texto": "¿Qué planeta es conocido como el 'planeta rojo'?",
-            "Opciones": [ "Marte", "Saturno", "Venus", "Urano" ],
-            "RespuestaCorrecta": "Marte",
-            "Categoria": "Ciencia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Cuál es la fórmula química del agua?",
-            "Opciones": [ "CO2", "H2O", "O2", "NaCl" ],
-            "RespuestaCorrecta": "H2O",
-            "Categoria": "Ciencia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué científico propuso la teoría de la relatividad?",
-            "Opciones": [ "Isaac Newton", "Albert Einstein", "Galileo Galilei", "Niels Bohr" ],
-            "RespuestaCorrecta": "Albert Einstein",
-            "Categoria": "Ciencia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué partícula es el núcleo del átomo?",
-            "Opciones": [ "Electrón", "Protón", "Neutrón", "Quark" ],
-            "RespuestaCorrecta": "Protón",
-            "Categoria": "Ciencia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué fenómeno explica la refracción de la luz?",
-            "Opciones": [ "Reflexión", "Difracción", "Refracción", "Interferencia" ],
-            "RespuestaCorrecta": "Refracción",
-            "Categoria": "Ciencia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué unidad se usa para medir la presión?",
-            "Opciones": [ "Pascal", "Watt", "Joule", "Tesla" ],
-            "RespuestaCorrecta": "Pascal",
-            "Categoria": "Ciencia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Cómo se llama el cambio de estado de sólido a líquido?",
-            "Opciones": [ "Sublimación", "Fusión", "Evaporación", "Condensación" ],
-            "RespuestaCorrecta": "Fusión",
-            "Categoria": "Ciencia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué instrumento se usa para ver objetos muy pequeños?",
-            "Opciones": [ "Telescopio", "Microscopio", "Binoculares", "Lupa" ],
-            "RespuestaCorrecta": "Microscopio",
-            "Categoria": "Ciencia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué ley establece que a cada acción corresponde una reacción igual y contraria?",
-            "Opciones": [ "Ley de la gravitación", "Ley de la inercia", "Ley de acción y reacción", "Ley de conservación" ],
-            "RespuestaCorrecta": "Ley de acción y reacción",
-            "Categoria": "Ciencia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué tipo de energía se almacena en un resorte comprimido?",
-            "Opciones": [ "Energía térmica", "Energía potencial", "Energía cinética", "Energía nuclear" ],
-            "RespuestaCorrecta": "Energía potencial",
-            "Categoria": "Ciencia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué científico formuló la ley de la gravitación universal?",
-            "Opciones": [ "Galileo Galilei", "Albert Einstein", "Isaac Newton", "Stephen Hawking" ],
-            "RespuestaCorrecta": "Isaac Newton",
-            "Categoria": "Ciencia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué instrumento se utiliza para medir la velocidad del viento?",
-            "Opciones": [ "Anemómetro", "Barómetro", "Termómetro", "Higrómetro" ],
-            "RespuestaCorrecta": "Anemómetro",
-            "Categoria": "Ciencia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué fenómeno explica la formación de arcoíris?",
-            "Opciones": [ "Dispersión de la luz", "Absorción de la luz", "Reflexión de la luz", "Difracción de la luz" ],
-            "RespuestaCorrecta": "Dispersión de la luz",
-            "Categoria": "Ciencia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Cuál es la fórmula del ácido sulfúrico?",
-            "Opciones": [ "H2SO4", "HCl", "HNO3", "H2O" ],
-            "RespuestaCorrecta": "H2SO4",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Quién descubrió la penicilina?",
-            "Opciones": [ "Marie Curie", "Alexander Fleming", "Einstein", "Darwin" ],
-            "RespuestaCorrecta": "Alexander Fleming",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué partícula elemental es conocida como bosón?",
-            "Opciones": [ "Fermión", "Quark", "Higgs", "Leptón" ],
-            "RespuestaCorrecta": "Higgs",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Cuál es el segundo planeta más grande del sistema solar?",
-            "Opciones": [ "Saturno", "Urano", "Neptuno", "Júpiter" ],
-            "RespuestaCorrecta": "Saturno",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué científico desarrolló la teoría cuántica?",
-            "Opciones": [ "Max Planck", "Niels Bohr", "Erwin Schrödinger", "Werner Heisenberg" ],
-            "RespuestaCorrecta": "Max Planck",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué es la antimateria?",
-            "Opciones": [ "Materia opuesta", "Materia oscura", "Materia radiactiva", "Materia exótica" ],
-            "RespuestaCorrecta": "Materia opuesta",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué instrumento mide la radiación electromagnética?",
-            "Opciones": [ "Espectrómetro", "Barómetro", "Sismógrafo", "Termómetro" ],
-            "RespuestaCorrecta": "Espectrómetro",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué representa el número de Avogadro?",
-            "Opciones": [ "Cantidad de electrones", "Cantidad de moléculas en un mol", "Número de protones", "Constante de Planck" ],
-            "RespuestaCorrecta": "Cantidad de moléculas en un mol",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Cuál es la teoría que describe el origen del universo a partir de una gran explosión?",
-            "Opciones": [ "Teoría del Estado Estacionario", "Teoría del Big Bang", "Teoría de la Relatividad", "Teoría Cuántica" ],
-            "RespuestaCorrecta": "Teoría del Big Bang",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué científico es conocido por su modelo atómico planetario?",
-            "Opciones": [ "Niels Bohr", "Erwin Schrödinger", "John Dalton", "J.J. Thomson" ],
-            "RespuestaCorrecta": "Niels Bohr",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Cuál es la ley que describe la relación entre la presión y el volumen de un gas?",
-            "Opciones": [ "Ley de Boyle", "Ley de Charles", "Ley de Avogadro", "Ley de Gay-Lussac" ],
-            "RespuestaCorrecta": "Ley de Boyle",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué propiedad mide la conductividad eléctrica de un material?",
-            "Opciones": [ "Resistencia", "Inductancia", "Capacitancia", "Permisividad" ],
-            "RespuestaCorrecta": "Resistencia",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué fenómeno cuántico explica la posibilidad de estar en dos estados a la vez?",
-            "Opciones": [ "Entrelazamiento", "Superposición", "Colapso", "Interferencia" ],
-            "RespuestaCorrecta": "Superposición",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué instrumento se utiliza en la espectroscopía de masas?",
-            "Opciones": [ "Calorímetro", "Espectrómetro de masas", "Cromatógrafo", "Microscopio" ],
-            "RespuestaCorrecta": "Espectrómetro de masas",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué nombre recibe el estudio de las interacciones fundamentales de las partículas?",
-            "Opciones": [ "Astrofísica", "Química", "Física de partículas", "Biología molecular" ],
-            "RespuestaCorrecta": "Física de partículas",
-            "Categoria": "Ciencia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿En qué año llegó Colón a América?",
-            "Opciones": [ "1492", "1501", "1607", "1776" ],
-            "RespuestaCorrecta": "1492",
-            "Categoria": "Historia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Quién fue el primer presidente de EE.UU.?",
-            "Opciones": [ "Thomas Jefferson", "Abraham Lincoln", "George Washington", "John Adams" ],
+            "Texto": "Â¿QuiÃ©n fue el primer presidente de Estados Unidos?",
+            "Opciones": [ "Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams" ],
             "RespuestaCorrecta": "George Washington",
             "Categoria": "Historia",
-            "Nivel": "Fácil"
+            "Nivel": "FÃ¡cil"
         },
         {
-            "Texto": "¿Qué civilización construyó las pirámides de Egipto?",
-            "Opciones": [ "Romanos", "Egipcios", "Mayas", "Griegos" ],
-            "RespuestaCorrecta": "Egipcios",
+            "Texto": "Â¿En quÃ© aÃ±o comenzÃ³ la Primera Guerra Mundial?",
+            "Opciones": [ "1912", "1914", "1918", "1920" ],
+            "RespuestaCorrecta": "1914",
             "Categoria": "Historia",
-            "Nivel": "Fácil"
+            "Nivel": "Medio"
         },
         {
-            "Texto": "¿Qué antigua civilización construyó Machu Picchu?",
-            "Opciones": [ "Azteca", "Inca", "Maya", "Olmeca" ],
-            "RespuestaCorrecta": "Inca",
+            "Texto": "Â¿QuÃ© imperio se caracteriza por la construcciÃ³n de la ciudad de Petra?",
+            "Opciones": [ "Imperio Romano", "Imperio Persa", "Imperio Nabateo", "Imperio Otomano" ],
+            "RespuestaCorrecta": "Imperio Nabateo",
             "Categoria": "Historia",
-            "Nivel": "Fácil"
+            "Nivel": "DifÃ­cil"
         },
         {
-            "Texto": "¿En qué continente se encuentra la antigua Roma?",
-            "Opciones": [ "Asia", "Europa", "África", "Oceanía" ],
-            "RespuestaCorrecta": "Europa",
+            "Texto": "Â¿CuÃ¡l es la capital de Francia?",
+            "Opciones": [ "Londres", "BerlÃ­n", "Madrid", "ParÃ­s" ],
+            "RespuestaCorrecta": "ParÃ­s",
+            "Categoria": "Cultura General",
+            "Nivel": "FÃ¡cil"
+        },
+        {
+            "Texto": "Â¿QuiÃ©n pintÃ³ la Mona Lisa?",
+            "Opciones": [ "Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo" ],
+            "RespuestaCorrecta": "Leonardo da Vinci",
+            "Categoria": "Cultura General",
+            "Nivel": "Medio"
+        },
+        {
+            "Texto": "Â¿QuÃ© paÃ­s es conocido como 'La tierra del sol naciente'?",
+            "Opciones": [ "China", "Corea", "JapÃ³n", "Tailandia" ],
+            "RespuestaCorrecta": "JapÃ³n",
+            "Categoria": "Cultura General",
+            "Nivel": "DifÃ­cil"
+        },
+        {
+            "Texto": "Â¿QuÃ© Ã³rgano del cuerpo humano es responsable de bombear la sangre?",
+            "Opciones": [ "EstÃ³mago", "PulmÃ³n", "CorazÃ³n", "HÃ­gado" ],
+            "RespuestaCorrecta": "CorazÃ³n",
+            "Categoria": "Ciencia",
+            "Nivel": "FÃ¡cil"
+        },
+        {
+            "Texto": "Â¿CuÃ¡l fue la antigua civilizaciÃ³n que construyÃ³ las pirÃ¡mides de Egipto?",
+            "Opciones": [ "Sumeria", "Egipcia", "Griega", "Romana" ],
+            "RespuestaCorrecta": "Egipcia",
             "Categoria": "Historia",
-            "Nivel": "Fácil"
+            "Nivel": "Medio"
         },
         {
-            "Texto": "¿Cuál fue la capital del Imperio Inca?",
-            "Opciones": [ "Cuzco", "Lima", "Quito", "La Paz" ],
-            "RespuestaCorrecta": "Cuzco",
+            "Texto": "Â¿En quÃ© continente se encuentra el desierto del Sahara?",
+            "Opciones": [ "Asia", "Ãfrica", "SudamÃ©rica", "OceanÃ­a" ],
+            "RespuestaCorrecta": "Ãfrica",
+            "Categoria": "Cultura General",
+            "Nivel": "FÃ¡cil"
+        },
+        {
+            "Texto": "Â¿QuÃ© cientÃ­fico desarrollÃ³ la teorÃ­a de la evoluciÃ³n por selecciÃ³n natural?",
+            "Opciones": [ "Isaac Newton", "Albert Einstein", "Charles Darwin", "Galileo Galilei" ],
+            "RespuestaCorrecta": "Charles Darwin",
+            "Categoria": "Ciencia",
+            "Nivel": "DifÃ­cil"
+        },
+        {
+            "Texto": "Â¿En quÃ© batalla se decidiÃ³ el fin del Imperio NapoleÃ³nico?",
+            "Opciones": [ "Batalla de Waterloo", "Batalla de Trafalgar", "Batalla de Austerlitz", "Batalla de Borodino" ],
+            "RespuestaCorrecta": "Batalla de Waterloo",
             "Categoria": "Historia",
-            "Nivel": "Fácil"
+            "Nivel": "DifÃ­cil"
         },
         {
-            "Texto": "¿Qué evento marcó el inicio de la Edad Media?",
-            "Opciones": [ "Caída del Imperio Romano", "Descubrimiento de América", "Revolución Industrial", "Guerra de los Cien Años" ],
-            "RespuestaCorrecta": "Caída del Imperio Romano",
-            "Categoria": "Historia",
-            "Nivel": "Fácil"
+            "Texto": "Â¿CuÃ¡l es el idioma mÃ¡s hablado del mundo?",
+            "Opciones": [ "EspaÃ±ol", "InglÃ©s", "Chino mandarÃ­n", "Ãrabe" ],
+            "RespuestaCorrecta": "Chino mandarÃ­n",
+            "Categoria": "Cultura General",
+            "Nivel": "Medio"
         },
         {
-            "Texto": "¿Qué faraón es famoso por su tumba intacta?",
-            "Opciones": [ "Ramsés II", "Tutankamón", "Cleopatra", "Akhenatón" ],
-            "RespuestaCorrecta": "Tutankamón",
-            "Categoria": "Historia",
-            "Nivel": "Fácil"
+            "Texto": "Â¿QuÃ© partÃ­cula se encuentra en el nÃºcleo de un Ã¡tomo?",
+            "Opciones": [ "ElectrÃ³n", "ProtÃ³n", "NeutrÃ³n", "FotÃ³n" ],
+            "RespuestaCorrecta": "ProtÃ³n",
+            "Categoria": "Ciencia",
+            "Nivel": "FÃ¡cil"
         },
         {
-            "Texto": "¿Qué guerra se conoce como la 'Gran Guerra'?",
-            "Opciones": [ "Primera Guerra Mundial", "Segunda Guerra Mundial", "Guerra de Vietnam", "Guerra Fría" ],
-            "RespuestaCorrecta": "Primera Guerra Mundial",
-            "Categoria": "Historia",
-            "Nivel": "Fácil"
+            "Texto": "Â¿QuÃ© ley describe la relaciÃ³n entre la fuerza, la masa y la aceleraciÃ³n?",
+            "Opciones": [ "Ley de Coulomb", "Ley de Newton", "Ley de Ohm", "Ley de Boyle" ],
+            "RespuestaCorrecta": "Ley de Newton",
+            "Categoria": "Ciencia",
+            "Nivel": "Medio"
         },
         {
-            "Texto": "¿Qué invento facilitó la difusión del conocimiento en la Edad Media?",
-            "Opciones": [ "Teléfono", "Imprenta", "Computadora", "Radio" ],
-            "RespuestaCorrecta": "Imprenta",
-            "Categoria": "Historia",
-            "Nivel": "Fácil"
+            "Texto": "Â¿CuÃ¡l es el elemento mÃ¡s abundante en el universo?",
+            "Opciones": [ "Helio", "OxÃ­geno", "HidrÃ³geno", "Carbono" ],
+            "RespuestaCorrecta": "HidrÃ³geno",
+            "Categoria": "Ciencia",
+            "Nivel": "DifÃ­cil"
         },
         {
-            "Texto": "¿Qué cultura antigua habitó la península de Yucatán?",
-            "Opciones": [ "Azteca", "Maya", "Inca", "Egipcia" ],
-            "RespuestaCorrecta": "Maya",
-            "Categoria": "Historia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿En qué año se firmó la Declaración de Independencia de los EE.UU.?",
-            "Opciones": [ "1776", "1789", "1804", "1812" ],
-            "RespuestaCorrecta": "1776",
-            "Categoria": "Historia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué país fue el epicentro del Renacimiento?",
-            "Opciones": [ "Francia", "Italia", "España", "Inglaterra" ],
+            "Texto": "Â¿En quÃ© paÃ­s se originÃ³ la civilizaciÃ³n romana?",
+            "Opciones": [ "Grecia", "Italia", "Egipto", "Francia" ],
             "RespuestaCorrecta": "Italia",
             "Categoria": "Historia",
-            "Nivel": "Fácil"
+            "Nivel": "FÃ¡cil"
         },
         {
-            "Texto": "¿Qué imperio construyó la Gran Muralla China?",
-            "Opciones": [ "Imperio Mongol", "Imperio Romano", "Imperio Chino", "Imperio Persa" ],
-            "RespuestaCorrecta": "Imperio Chino",
-            "Categoria": "Historia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Quién fue el líder de la Revolución Francesa conocido por su guillotina?",
-            "Opciones": [ "Napoleón", "Robespierre", "Louis XVI", "Marat" ],
-            "RespuestaCorrecta": "Robespierre",
-            "Categoria": "Historia",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué imperio gobernaba México antes de la llegada de los españoles?",
-            "Opciones": [ "Inca", "Azteca", "Maya", "Olmequita" ],
-            "RespuestaCorrecta": "Azteca",
-            "Categoria": "Historia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Cuál fue la causa principal de la Primera Guerra Mundial?",
-            "Opciones": [ "Asesinato de Francisco Fernando", "Revolución Industrial", "Conflictos coloniales", "Guerra civil" ],
-            "RespuestaCorrecta": "Asesinato de Francisco Fernando",
-            "Categoria": "Historia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
-            "Opciones": [ "Tratado de Versalles", "Tratado de París", "Tratado de Ginebra", "Tratado de Utrecht" ],
+            "Texto": "Â¿QuÃ© tratado marcÃ³ el fin de la Primera Guerra Mundial?",
+            "Opciones": [ "Tratado de Versalles", "Tratado de ParÃ­s", "Tratado de Ginebra", "Tratado de Tordesillas" ],
             "RespuestaCorrecta": "Tratado de Versalles",
             "Categoria": "Historia",
             "Nivel": "Medio"
         },
         {
-            "Texto": "¿Quién fue el líder del movimiento independentista en la India?",
-            "Opciones": [ "Mahatma Gandhi", "Nelson Mandela", "Simón Bolívar", "Che Guevara" ],
-            "RespuestaCorrecta": "Mahatma Gandhi",
+            "Texto": "Â¿QuÃ© civilizaciÃ³n antigua es reconocida por construir las famosas ziggurats?",
+            "Opciones": [ "Egipcia", "MesopotÃ¡mica", "Maya", "Inca" ],
+            "RespuestaCorrecta": "MesopotÃ¡mica",
             "Categoria": "Historia",
-            "Nivel": "Medio"
+            "Nivel": "DifÃ­cil"
         },
         {
-            "Texto": "¿En qué año se inició la Revolución Francesa?",
-            "Opciones": [ "1789", "1776", "1804", "1812" ],
-            "RespuestaCorrecta": "1789",
-            "Categoria": "Historia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué conflicto se conoció como la Guerra Fría?",
-            "Opciones": [ "Guerra de Corea", "Guerra de Vietnam", "Conflicto ideológico entre EEUU y URSS", "Guerra del Golfo" ],
-            "RespuestaCorrecta": "Conflicto ideológico entre EEUU y URSS",
-            "Categoria": "Historia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué civilización antigua construyó la ciudad de Petra?",
-            "Opciones": [ "Egipcia", "Nabataea", "Griega", "Romana" ],
-            "RespuestaCorrecta": "Nabataea",
-            "Categoria": "Historia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué imperio se expandió bajo el liderazgo de Alejandro Magno?",
-            "Opciones": [ "Imperio Persa", "Imperio Romano", "Imperio Macedonio", "Imperio Otomano" ],
-            "RespuestaCorrecta": "Imperio Macedonio",
-            "Categoria": "Historia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué documento es fundamental en la historia de los derechos humanos?",
-            "Opciones": [ "La Carta Magna", "El Manifiesto Comunista", "La Declaración Universal de los Derechos Humanos", "La Constitución de EE.UU." ],
-            "RespuestaCorrecta": "La Declaración Universal de los Derechos Humanos",
-            "Categoria": "Historia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Cuál fue el primer país en abolir la esclavitud?",
-            "Opciones": [ "Estados Unidos", "Haití", "Reino Unido", "Francia" ],
-            "RespuestaCorrecta": "Haití",
-            "Categoria": "Historia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué líder revolucionario latinoamericano luchó contra la dictadura en Cuba?",
-            "Opciones": [ "Fidel Castro", "Che Guevara", "Simón Bolívar", "Augusto Pinochet" ],
-            "RespuestaCorrecta": "Che Guevara",
-            "Categoria": "Historia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué imperio se disolvió tras la Primera Guerra Mundial?",
-            "Opciones": [ "Imperio Austrohúngaro", "Imperio Británico", "Imperio Otomano", "Imperio Ruso" ],
-            "RespuestaCorrecta": "Imperio Otomano",
-            "Categoria": "Historia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué conflicto enfrentó a la Unión Soviética y a los Estados Unidos en la década de 1980?",
-            "Opciones": [ "Guerra de Vietnam", "Invasión de Afganistán", "Guerra de las Malvinas", "Conflicto del Cáucaso" ],
-            "RespuestaCorrecta": "Invasión de Afganistán",
-            "Categoria": "Historia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué líder británico fue primer ministro durante la Segunda Guerra Mundial?",
-            "Opciones": [ "Winston Churchill", "Margaret Thatcher", "Tony Blair", "David Cameron" ],
-            "RespuestaCorrecta": "Winston Churchill",
-            "Categoria": "Historia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿En qué año terminó la Segunda Guerra Mundial?",
-            "Opciones": [ "1945", "1939", "1950", "1963" ],
-            "RespuestaCorrecta": "1945",
-            "Categoria": "Historia",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿En qué año cayó el Muro de Berlín?",
-            "Opciones": [ "1989", "1991", "1975", "2001" ],
-            "RespuestaCorrecta": "1989",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué tratado puso fin a la Guerra de los Treinta Años?",
-            "Opciones": [ "Tratado de Westfalia", "Tratado de Versalles", "Tratado de Tordesillas", "Tratado de Utrecht" ],
-            "RespuestaCorrecta": "Tratado de Westfalia",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Quién fue el líder de la Revolución Rusa de 1917?",
-            "Opciones": [ "Vladimir Lenin", "Joseph Stalin", "Leon Trotsky", "Nicolás II" ],
-            "RespuestaCorrecta": "Vladimir Lenin",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué batalla es considerada el punto de inflexión de la Segunda Guerra Mundial en Europa?",
-            "Opciones": [ "Batalla de Stalingrado", "Batalla de Normandía", "Batalla de Midway", "Batalla de las Ardenas" ],
-            "RespuestaCorrecta": "Batalla de Stalingrado",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué imperio fue fundado por Genghis Khan?",
-            "Opciones": [ "Imperio Otomano", "Imperio Mongol", "Imperio Ruso", "Imperio Persa" ],
-            "RespuestaCorrecta": "Imperio Mongol",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿En qué año comenzó la Revolución Industrial?",
-            "Opciones": [ "1760", "1789", "1800", "1850" ],
-            "RespuestaCorrecta": "1760",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué faraón egipcio es conocido por la construcción de la Gran Pirámide de Giza?",
-            "Opciones": [ "Tutankamón", "Keops", "Ramsés II", "Cleopatra" ],
-            "RespuestaCorrecta": "Keops",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué conflicto se conoce como la Guerra de Sucesión Española?",
-            "Opciones": [ "Guerra de los Cien Años", "Guerra de Independencia", "Guerra de Sucesión", "Guerra de las Dos Rosas" ],
-            "RespuestaCorrecta": "Guerra de Sucesión",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué figura histórica es conocida como 'El Libertador' en América Latina?",
-            "Opciones": [ "Simón Bolívar", "José de San Martín", "Miguel Hidalgo", "Antonio José de Sucre" ],
-            "RespuestaCorrecta": "Simón Bolívar",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué dinastía gobernó en China durante más de 300 años?",
-            "Opciones": [ "Ming", "Qing", "Han", "Zhou" ],
-            "RespuestaCorrecta": "Zhou",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué acuerdo puso fin a la Guerra Fría?",
-            "Opciones": [ "Acuerdos de Helsinki", "Desintegración de la URSS", "Tratado INF", "Caída del Muro de Berlín" ],
-            "RespuestaCorrecta": "Desintegración de la URSS",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿En qué año se produjo la Revolución de Octubre en Rusia?",
-            "Opciones": [ "1917", "1914", "1922", "1905" ],
-            "RespuestaCorrecta": "1917",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué conflicto se conoce como la 'Primera Guerra Carlista'?",
-            "Opciones": [ "Guerra de Sucesión Española", "Guerras Carlistas", "Guerra de la Independencia", "Guerra de las Dos Ciudades" ],
-            "RespuestaCorrecta": "Guerras Carlistas",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué tratado puso fin a la Guerra Fría en términos políticos?",
-            "Opciones": [ "Tratado de Maastricht", "Acuerdo de Paz de Dayton", "Acuerdo START", "Acuerdo de Helsinki" ],
-            "RespuestaCorrecta": "Acuerdo START",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué evento marcó el inicio de la Segunda Guerra Mundial en Europa?",
-            "Opciones": [ "Invasión de Polonia", "Batalla de Inglaterra", "Ataque a Pearl Harbor", "Guerra de los Balcanes" ],
-            "RespuestaCorrecta": "Invasión de Polonia",
-            "Categoria": "Historia",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Cuál es el río más largo del mundo?",
-            "Opciones": [ "Nilo", "Amazonas", "Yangtsé", "Misisipi" ],
-            "RespuestaCorrecta": "Amazonas",
+            "Texto": "Â¿CuÃ¡ntos continentes hay en el mundo?",
+            "Opciones": [ "Cinco", "Seis", "Siete", "Ocho" ],
+            "RespuestaCorrecta": "Siete",
             "Categoria": "Cultura General",
-            "Nivel": "Fácil"
+            "Nivel": "FÃ¡cil"
         },
         {
-            "Texto": "¿Qué artista pintó 'La noche estrellada'?",
-            "Opciones": [ "Picasso", "Van Gogh", "Da Vinci", "Dalí" ],
-            "RespuestaCorrecta": "Van Gogh",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿En qué continente se encuentra Egipto?",
-            "Opciones": [ "Asia", "África", "Europa", "América" ],
-            "RespuestaCorrecta": "África",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Cuál es el idioma más hablado en el mundo?",
-            "Opciones": [ "Inglés", "Español", "Chino mandarín", "Hindi" ],
-            "RespuestaCorrecta": "Chino mandarín",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué invento revolucionó la comunicación en el siglo XIX?",
-            "Opciones": [ "Teléfono", "Internet", "Radio", "Televisión" ],
-            "RespuestaCorrecta": "Teléfono",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Cuál es la capital de Francia?",
-            "Opciones": [ "París", "Lyon", "Marsella", "Niza" ],
-            "RespuestaCorrecta": "París",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué deporte se juega en Wimbledon?",
-            "Opciones": [ "Fútbol", "Tenis", "Cricket", "Baloncesto" ],
-            "RespuestaCorrecta": "Tenis",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué país es famoso por sus tulipanes?",
-            "Opciones": [ "Bélgica", "Países Bajos", "Suiza", "Dinamarca" ],
-            "RespuestaCorrecta": "Países Bajos",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Cuál es la bebida tradicional en el té británico?",
-            "Opciones": [ "Café", "Té", "Chocolate caliente", "Agua" ],
-            "RespuestaCorrecta": "Té",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué instrumento musical tiene 88 teclas?",
-            "Opciones": [ "Guitarra", "Violín", "Piano", "Batería" ],
-            "RespuestaCorrecta": "Piano",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué monumento se encuentra en la Plaza de San Marcos?",
-            "Opciones": [ "Coliseo", "Torre Eiffel", "Basílica de San Marcos", "Sagrada Familia" ],
-            "RespuestaCorrecta": "Basílica de San Marcos",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué ciudad es conocida como 'La Ciudad de la Luz'?",
-            "Opciones": [ "Londres", "Nueva York", "París", "Roma" ],
-            "RespuestaCorrecta": "París",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué continente alberga la mayor diversidad cultural?",
-            "Opciones": [ "Europa", "Asia", "África", "América" ],
-            "RespuestaCorrecta": "África",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Qué país es conocido por su gastronomía a base de sushi?",
-            "Opciones": [ "China", "Japón", "Tailandia", "Corea del Sur" ],
-            "RespuestaCorrecta": "Japón",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿Cuál es la moneda oficial del Reino Unido?",
-            "Opciones": [ "Euro", "Dólar", "Libra Esterlina", "Franco" ],
-            "RespuestaCorrecta": "Libra Esterlina",
-            "Categoria": "Cultura General",
-            "Nivel": "Fácil"
-        },
-        {
-            "Texto": "¿En qué país se originó el sushi?",
-            "Opciones": [ "China", "Corea del Sur", "Japón", "Tailandia" ],
-            "RespuestaCorrecta": "Japón",
+            "Texto": "Â¿En quÃ© paÃ­s se encuentra la Torre Eiffel?",
+            "Opciones": [ "Italia", "EspaÃ±a", "Francia", "Reino Unido" ],
+            "RespuestaCorrecta": "Francia",
             "Categoria": "Cultura General",
             "Nivel": "Medio"
         },
         {
-            "Texto": "¿Qué famoso festival se celebra en Río de Janeiro?",
-            "Opciones": [ "Oktoberfest", "Carnaval", "Día de Muertos", "Coachella" ],
-            "RespuestaCorrecta": "Carnaval",
+            "Texto": "Â¿QuÃ© tratado internacional fue firmado en 1215 y es considerado uno de los primeros pasos hacia los derechos civiles?",
+            "Opciones": [ "Tratado de Utrecht", "Magna Carta", "Tratado de Westfalia", "Pacto de Varsovia" ],
+            "RespuestaCorrecta": "Magna Carta",
             "Categoria": "Cultura General",
+            "Nivel": "DifÃ­cil"
+        },
+        {
+            "Texto": "Â¿QuÃ© Ã³rgano es vital para la respiraciÃ³n en los seres humanos?",
+            "Opciones": [ "HÃ­gado", "Pulmones", "CorazÃ³n", "RiÃ±ones" ],
+            "RespuestaCorrecta": "Pulmones",
+            "Categoria": "Ciencia",
+            "Nivel": "FÃ¡cil"
+        },
+        {
+            "Texto": "Â¿QuiÃ©n fue el lÃ­der militar que conquistÃ³ gran parte de Europa en el siglo XIX?",
+            "Opciones": [ "NapoleÃ³n Bonaparte", "Alejandro Magno", "Julio CÃ©sar", "Genghis Khan" ],
+            "RespuestaCorrecta": "NapoleÃ³n Bonaparte",
+            "Categoria": "Historia",
             "Nivel": "Medio"
         },
         {
-            "Texto": "¿Qué ciudad es la capital de Australia?",
-            "Opciones": [ "Sydney", "Melbourne", "Canberra", "Brisbane" ],
-            "RespuestaCorrecta": "Canberra",
+            "Texto": "Â¿CuÃ¡l es el deporte mÃ¡s popular del mundo?",
+            "Opciones": [ "Baloncesto", "FÃºtbol", "Tenis", "BÃ©isbol" ],
+            "RespuestaCorrecta": "FÃºtbol",
+            "Categoria": "Cultura General",
+            "Nivel": "FÃ¡cil"
+        },
+        {
+            "Texto": "Â¿QuÃ© teorÃ­a explica el origen del universo mediante una gran explosiÃ³n?",
+            "Opciones": [ "TeorÃ­a del Big Bang", "TeorÃ­a de la Relatividad", "TeorÃ­a CuÃ¡ntica", "TeorÃ­a del Caos" ],
+            "RespuestaCorrecta": "TeorÃ­a del Big Bang",
+            "Categoria": "Ciencia",
+            "Nivel": "DifÃ­cil"
+        },
+        {
+            "Texto": "Â¿QuÃ© faraÃ³n egipcio es famoso por su tumba intacta descubierta en 1922?",
+            "Opciones": [ "RamsÃ©s II", "TutankamÃ³n", "Cleopatra", "Akhenaton" ],
+            "RespuestaCorrecta": "TutankamÃ³n",
+            "Categoria": "Historia",
+            "Nivel": "DifÃ­cil"
+        },
+        {
+            "Texto": "Â¿QuÃ© fenÃ³meno natural se produce cuando la Tierra se encuentra entre el Sol y la Luna?",
+            "Opciones": [ "Eclipse lunar", "Eclipse solar", "Aurora boreal", "Mareas altas" ],
+            "RespuestaCorrecta": "Eclipse lunar",
             "Categoria": "Cultura General",
             "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Cuál es la montaña más alta del mundo?",
-            "Opciones": [ "K2", "Kangchenjunga", "Everest", "Lhotse" ],
-            "RespuestaCorrecta": "Everest",
-            "Categoria": "Cultura General",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué civilización construyó las pirámides de Mesoamérica?",
-            "Opciones": [ "Azteca", "Inca", "Maya", "Olmeca" ],
-            "RespuestaCorrecta": "Maya",
-            "Categoria": "Cultura General",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué sistema de escritura utiliza caracteres jeroglíficos?",
-            "Opciones": [ "Alfabeto latino", "Cuneiforme", "Jeroglíficos", "Cirílico" ],
-            "RespuestaCorrecta": "Jeroglíficos",
-            "Categoria": "Cultura General",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿En qué país se originó el flamenco?",
-            "Opciones": [ "Italia", "España", "Portugal", "Francia" ],
-            "RespuestaCorrecta": "España",
-            "Categoria": "Cultura General",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué famoso artista es conocido por su obra 'El Grito'?",
-            "Opciones": [ "Edvard Munch", "Salvador Dalí", "Andy Warhol", "Pablo Picasso" ],
-            "RespuestaCorrecta": "Edvard Munch",
-            "Categoria": "Cultura General",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué evento cultural se celebra en Venecia cada año?",
-            "Opciones": [ "Carnaval", "Festival de Cine", "Feria del Libro", "Oktoberfest" ],
-            "RespuestaCorrecta": "Carnaval",
-            "Categoria": "Cultura General",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué bebida es típica en la cultura japonesa?",
-            "Opciones": [ "Sake", "Whisky", "Cerveza", "Vino" ],
-            "RespuestaCorrecta": "Sake",
-            "Categoria": "Cultura General",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Cuál es la tradición de origen celta celebrada en Irlanda?",
-            "Opciones": [ "Halloween", "Día de San Patricio", "Navidad", "Easter" ],
-            "RespuestaCorrecta": "Día de San Patricio",
-            "Categoria": "Cultura General",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué estilo arquitectónico es representativo de la India?",
-            "Opciones": [ "Gótico", "Barroco", "Mughal", "Rococó" ],
-            "RespuestaCorrecta": "Mughal",
-            "Categoria": "Cultura General",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué ciudad europea es famosa por sus canales?",
-            "Opciones": [ "Venecia", "Berlín", "Madrid", "Praga" ],
-            "RespuestaCorrecta": "Venecia",
-            "Categoria": "Cultura General",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué obra literaria escribió Miguel de Cervantes?",
-            "Opciones": [ "La Celestina", "El Quijote", "Cien años de soledad", "Don Juan Tenorio" ],
-            "RespuestaCorrecta": "El Quijote",
-            "Categoria": "Cultura General",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Qué red social fue lanzada en 2006 y es popular entre jóvenes?",
-            "Opciones": [ "Facebook", "Twitter", "Instagram", "LinkedIn" ],
-            "RespuestaCorrecta": "Facebook",
-            "Categoria": "Cultura General",
-            "Nivel": "Medio"
-        },
-        {
-            "Texto": "¿Quién escribió 'Cien años de soledad'?",
-            "Opciones": [ "Gabriel García Márquez", "Pablo Neruda", "Mario Vargas Llosa", "Julio Cortázar" ],
-            "RespuestaCorrecta": "Gabriel García Márquez",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿En qué movimiento artístico se enmarca el cubismo?",
-            "Opciones": [ "Impresionismo", "Cubismo", "Surrealismo", "Expresionismo" ],
-            "RespuestaCorrecta": "Cubismo",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué científico formuló la teoría de la evolución?",
-            "Opciones": [ "Charles Darwin", "Gregor Mendel", "Louis Pasteur", "Alfred Russel Wallace" ],
-            "RespuestaCorrecta": "Charles Darwin",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué obra literaria es considerada la máxima representación del modernismo?",
-            "Opciones": [ "Azul...", "La Regenta", "El ruido y la furia", "La casa de Bernarda Alba" ],
-            "RespuestaCorrecta": "Azul...",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué filósofo escribió 'La República'?",
-            "Opciones": [ "Aristóteles", "Platón", "Sócrates", "Descartes" ],
-            "RespuestaCorrecta": "Platón",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Cuál es el término que describe una obra de arte con valores simbólicos profundos?",
-            "Opciones": [ "Arte figurativo", "Arte abstracto", "Iconografía", "Realismo" ],
-            "RespuestaCorrecta": "Iconografía",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué movimiento literario surgió como reacción contra el romanticismo?",
-            "Opciones": [ "Realismo", "Modernismo", "Simbolismo", "Existencialismo" ],
-            "RespuestaCorrecta": "Realismo",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Quién pintó 'Guernica'?",
-            "Opciones": [ "Salvador Dalí", "Pablo Picasso", "Joan Miró", "Diego Rivera" ],
-            "RespuestaCorrecta": "Pablo Picasso",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué autor escribió 'La metamorfosis'?",
-            "Opciones": [ "Franz Kafka", "Albert Camus", "Jorge Luis Borges", "Fiodor Dostoievski" ],
-            "RespuestaCorrecta": "Franz Kafka",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué estilo musical se originó en Nueva Orleans a principios del siglo XX?",
-            "Opciones": [ "Rock", "Jazz", "Blues", "Country" ],
-            "RespuestaCorrecta": "Jazz",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué famoso poeta chileno ganó el Premio Nobel de Literatura?",
-            "Opciones": [ "Pablo Neruda", "Gabriel García Márquez", "Octavio Paz", "Jorge Luis Borges" ],
-            "RespuestaCorrecta": "Pablo Neruda",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué país es conocido por el tango?",
-            "Opciones": [ "Brasil", "Argentina", "Chile", "Uruguay" ],
-            "RespuestaCorrecta": "Argentina",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Cuál es el nombre del proceso de imprimir imágenes a partir de una matriz de puntos?",
-            "Opciones": [ "Litografía", "Serigrafía", "Fotograbado", "Tipografía" ],
-            "RespuestaCorrecta": "Serigrafía",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Qué estilo arquitectónico se caracteriza por sus arcos ojivales y contrafuertes?",
-            "Opciones": [ "Románico", "Gótico", "Barroco", "Renacentista" ],
-            "RespuestaCorrecta": "Gótico",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
-        },
-        {
-            "Texto": "¿Quién es el autor de 'El extranjero'?",
-            "Opciones": [ "Albert Camus", "Jean-Paul Sartre", "Simone de Beauvoir", "Franz Kafka" ],
-            "RespuestaCorrecta": "Albert Camus",
-            "Categoria": "Cultura General",
-            "Nivel": "Difícil"
         }
     ]
 }

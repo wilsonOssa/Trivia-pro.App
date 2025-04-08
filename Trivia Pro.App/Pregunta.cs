@@ -1,17 +1,20 @@
 ﻿using System.Collections.Generic;
 
-public abstract class Pregunta
+namespace Trivia_Pro.App
 {
-    public string Texto { get;  set; }
-    public List<string> Opciones { get;  set; }
-    public string RespuestaCorrecta { get;  set; }
-    public string Categoria { get;  set; }
-    public string Nivel { get;  set; }
-    public int Tiempo { get;  set; }
-    public abstract int Puntaje { get; }
-
-    public bool EvaluarRespuesta(string respuesta)
+    public abstract class Pregunta
     {
-        return respuesta == RespuestaCorrecta;
+        public string Texto { get; set; }
+        public List<string> Opciones { get; set; }
+        public string RespuestaCorrecta { get; set; }
+        public string Categoria { get; set; }
+        public string Nivel { get; set; }
+        public int Tiempo { get; set; }
+        public abstract int Puntaje { get; }
+
+        public bool EvaluarRespuesta(string respuesta)
+        {
+            return respuesta.Equals(RespuestaCorrecta);
+        }
     }
 }

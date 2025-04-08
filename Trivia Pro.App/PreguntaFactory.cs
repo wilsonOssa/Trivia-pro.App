@@ -3,65 +3,86 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Trivia_Pro.App;
+using System.Windows.Forms;
 
-public static class PreguntaFactory
+namespace Trivia_Pro.App
 {
-    private static List<PreguntaDTO> _preguntasCargadas; // Almacena todas las preguntas del JSON
-    private static readonly Random _random = new Random();
-
-    // Constructor estático: carga las preguntas al iniciar la aplicación
-    static PreguntaFactory()
+    public static class PreguntaFactory
     {
-        _preguntasCargadas = CargarPreguntasDesdeJSON();
-    }
+        // Almacena los DTOs cargados desde el JSON
+        private static List<PreguntaDTO> _preguntasCargadas;
+        private static readonly Random _random = new Random();
 
-    // Método para cargar el JSON
-    private static List<PreguntaDTO> CargarPreguntasDesdeJSON()
-    {
-        string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "preguntas.json");
-        string json = File.ReadAllText(path);
-        return JsonConvert.DeserializeObject<RootObject>(json).Preguntas;
-    }
-
-    // Método público para crear preguntas según categoría y nivel (¡aquí va implementado!)
-    public static Pregunta CrearPregunta(string categoria, string nivel)
-    {
-        // Filtra preguntas por categoría y nivel
-        var preguntasFiltradas = _preguntasCargadas
-            .Where(p => p.Categoria == categoria && p.Nivel == nivel)
-            .ToList();
-
-        if (preguntasFiltradas.Count == 0)
-            throw new Exception("No hay preguntas disponibles para esta categoría/nivel.");
-
-        // Selecciona una pregunta aleatoria
-        var preguntaDTO = preguntasFiltradas[_random.Next(preguntasFiltradas.Count)];
-
-        // Crea la instancia según el nivel
-        Pregunta pregunta;
-        switch (nivel)
+        // Cargar las preguntas del JSON en el constructor estático
+        static PreguntaFactory()
         {
-            case "Fácil":
-                pregunta = new PreguntaFacil();
-                break;
-            case "Medio":
-                pregunta = new PreguntaMedia();
-                break;
-            case "Difícil":
-                pregunta = new PreguntaDificil();
-                break;
-            default:
-                throw new ArgumentException("Nivel no válido");
+            try
+            {
+                _preguntasCargadas = CargarPreguntasDesdeJSON();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar preguntas: " + ex.Message);
+                _preguntasCargadas = new List<PreguntaDTO>();
+            }
         }
 
-        // Asigna propiedades desde el DTO
-        pregunta.Texto = preguntaDTO.Texto;
-        pregunta.Opciones = preguntaDTO.Opciones;
-        pregunta.RespuestaCorrecta = preguntaDTO.RespuestaCorrecta;
-        pregunta.Categoria = preguntaDTO.Categoria;
-        pregunta.Nivel = preguntaDTO.Nivel;
+        private static List<PreguntaDTO> CargarPreguntasDesdeJSON()
+        {
+            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "preguntas.json");
+            string json = File.ReadAllText(path);
+            RootObject root = JsonConvert.DeserializeObject<RootObject>(json);
+            return root.Preguntas;
+        }
 
-        return pregunta;
+        // Devuelve una pregunta aleatoria y única según la categoría y nivel indicados
+        public static Pregunta ObtenerPreguntaAleatoria(string categoria, string nivel)
+        {
+            var preguntasFiltradas = _preguntasCargadas
+                .Where(p => p.Categoria.Equals(categoria, StringComparison.OrdinalIgnoreCase)
+                         && p.Nivel.Equals(nivel, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+
+            if (preguntasFiltradas.Count == 0)
+            {
+                return null;
+            }
+
+            int indice = _random.Next(preguntasFiltradas.Count);
+            PreguntaDTO preguntaDTO = preguntasFiltradas[indice];
+
+            // Elimina la pregunta seleccionada para evitar repeticiones en la sesión
+            _preguntasCargadas.Remove(preguntaDTO);
+
+            return CrearPregunta(preguntaDTO);
+        }
+
+        // Crea una instancia concreta de Pregunta según el nivel indicado
+        public static Pregunta CrearPregunta(PreguntaDTO preguntaDTO)
+        {
+            Pregunta pregunta;
+            switch (preguntaDTO.Nivel)
+            {
+                case "Fácil":
+                    pregunta = new PreguntaFacil();
+                    break;
+                case "Medio":
+                    pregunta = new PreguntaMedia();
+                    break;
+                case "Difícil":
+                    pregunta = new PreguntaDificil();
+                    break;
+                default:
+                    throw new ArgumentException("Nivel no válido");
+            }
+
+            // Copiar las propiedades del DTO a la instancia de Pregunta
+            pregunta.Texto = preguntaDTO.Texto;
+            pregunta.Opciones = preguntaDTO.Opciones;
+            pregunta.RespuestaCorrecta = preguntaDTO.RespuestaCorrecta;
+            pregunta.Categoria = preguntaDTO.Categoria;
+            pregunta.Nivel = preguntaDTO.Nivel;
+            return pregunta;
+        }
     }
 }
