@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Forms;
+using Newtonsoft.Json;
 
 namespace Trivia_Pro.App
 {
@@ -29,7 +31,6 @@ namespace Trivia_Pro.App
 
         private void IniciarJuego()
         {
-            // Validar selección de categoría y nivel
             if (cmbCategoria.SelectedItem == null || cmbNivel.SelectedItem == null)
             {
                 MessageBox.Show("¡Selecciona categoría y nivel!");
@@ -39,26 +40,26 @@ namespace Trivia_Pro.App
             string categoria = cmbCategoria.SelectedItem.ToString();
             string nivel = cmbNivel.SelectedItem.ToString();
 
-            // Limpiar preguntas existentes
-            preguntas.Clear();
+            // Obtener preguntas disponibles (sin límite de 15)
+            preguntas = PreguntaFactory.ObtenerPreguntasAleatorias(categoria, nivel);
 
-            // Cargar 15 preguntas únicas aleatorias según la categoría y nivel seleccionados
-            for (int i = 0; i < 15; i++)
+            if (preguntas.Count == 0)
             {
-                Pregunta pregunta = PreguntaFactory.ObtenerPreguntaAleatoria(categoria, nivel);
-                if (pregunta == null)
-                {
-                    MessageBox.Show("No hay suficientes preguntas para la selección indicada.");
-                    break;
-                }
-                preguntas.Add(pregunta);
+                MessageBox.Show("No hay preguntas para esta combinación.");
+                return;
             }
 
+            // Limitar a 15 preguntas si hay más
+            if (preguntas.Count > 15)
+            {
+                preguntas = preguntas.Take(15).ToList();
+            }
+
+            preguntasRestantes = preguntas.Count; // Ajustar según preguntas reales
             puntajeTotal = 0;
-            preguntasRestantes = preguntas.Count;
             lblPuntaje.Text = $"Puntaje: {puntajeTotal}";
 
-            // Deshabilitar la selección para evitar cambios durante la partida
+            // Resto del código (deshabilitar controles, etc.)
             cmbCategoria.Enabled = false;
             cmbNivel.Enabled = false;
             btnIniciar.Enabled = false;
@@ -154,6 +155,34 @@ namespace Trivia_Pro.App
             cmbCategoria.Enabled = true;
             cmbNivel.Enabled = true;
             btnIniciar.Enabled = true;
+        }
+
+        private void btnReiniciar_Click(object sender, EventArgs e)
+        {
+            // Limpiar todas las preguntas y variables de estado
+            preguntas.Clear();
+            puntajeTotal = 0;
+            preguntasRestantes = 15;
+
+            // Restablecer controles básicos
+            lblPuntaje.Text = "Puntaje: 0";
+            lblPregunta.Text = "";
+            cmbCategoria.Enabled = true;
+            cmbNivel.Enabled = true;
+            btnIniciar.Enabled = true;
+
+            // Limpiar selecciones de RadioButtons
+            rbOpcionA.Checked = false;
+            rbOpcionB.Checked = false;
+            rbOpcionC.Checked = false;
+            rbOpcionD.Checked = false;
+
+            // Detener y reiniciar el temporizador
+            timer.Stop();
+            pgbTiempoRestante.Value = 0;
+
+            // Recargar preguntas para una nueva partida
+            PreguntaFactory.RecargarPreguntas();
         }
     }
 }

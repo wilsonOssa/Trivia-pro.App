@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+
+
 
 namespace Trivia_Pro.App
 {
@@ -12,9 +15,10 @@ namespace Trivia_Pro.App
         public int Tiempo { get; set; }
         public abstract int Puntaje { get; }
 
+        // Método para evaluar la respuesta del usuario
         public bool EvaluarRespuesta(string respuesta)
         {
-            return respuesta.Equals(RespuestaCorrecta);
+            return respuesta.Equals(RespuestaCorrecta, StringComparison.OrdinalIgnoreCase);
         }
     }
 }

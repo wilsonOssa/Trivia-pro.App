@@ -1,0 +1,214 @@
+{
+    "Preguntas": [
+        {
+            "Texto": "¿Cuál es el planeta más cercano al Sol?",
+            "Opciones": [ "Venus", "Marte", "Mercurio", "Júpiter" ],
+            "RespuestaCorrecta": "Mercurio",
+            "Categoria": "Ciencia",
+            "Nivel": "Fácil"
+        },
+        {
+            "Texto": "¿Qué gas es esencial para la respiración humana?",
+            "Opciones": [ "Oxígeno", "Dióxido de carbono", "Nitrógeno", "Helio" ],
+            "RespuestaCorrecta": "Oxígeno",
+            "Categoria": "Ciencia",
+            "Nivel": "Medio"
+        },
+        {
+            "Texto": "¿Qué partícula subatómica determina el número atómico de un elemento?",
+            "Opciones": [ "Protón", "Neutrón", "Electrón", "Positrón" ],
+            "RespuestaCorrecta": "Protón",
+            "Categoria": "Ciencia",
+            "Nivel": "Difícil"
+        },
+        {
+            "Texto": "¿Quién fue el primer presidente de Estados Unidos?",
+            "Opciones": [ "Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams" ],
+            "RespuestaCorrecta": "George Washington",
+            "Categoria": "Historia",
+            "Nivel": "Fácil"
+        },
+        {
+            "Texto": "¿En qué año comenzó la Primera Guerra Mundial?",
+            "Opciones": [ "1912", "1914", "1918", "1920" ],
+            "RespuestaCorrecta": "1914",
+            "Categoria": "Historia",
+            "Nivel": "Medio"
+        },
+        {
+            "Texto": "¿Qué imperio se caracteriza por la construcción de la ciudad de Petra?",
+            "Opciones": [ "Imperio Romano", "Imperio Persa", "Imperio Nabateo", "Imperio Otomano" ],
+            "RespuestaCorrecta": "Imperio Nabateo",
+            "Categoria": "Historia",
+            "Nivel": "Difícil"
+        },
+        {
+            "Texto": "¿Cuál es la capital de Francia?",
+            "Opciones": [ "Londres", "Berlín", "Madrid", "París" ],
+            "RespuestaCorrecta": "París",
+            "Categoria": "Cultura General",
+            "Nivel": "Fácil"
+        },
+        {
+            "Texto": "¿Quién pintó la Mona Lisa?",
+            "Opciones": [ "Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo" ],
+            "RespuestaCorrecta": "Leonardo da Vinci",
+            "Categoria": "Cultura General",
+            "Nivel": "Medio"
+        },
+        {
+            "Texto": "¿Qué país es conocido como 'La tierra del sol naciente'?",
+            "Opciones": [ "China", "Corea", "Japón", "Tailandia" ],
+            "RespuestaCorrecta": "Japón",
+            "Categoria": "Cultura General",
+            "Nivel": "Difícil"
+        },
+        {
+            "Texto": "¿Qué órgano del cuerpo humano es responsable de bombear la sangre?",
+            "Opciones": [ "Estómago", "Pulmón", "Corazón", "Hígado" ],
+            "RespuestaCorrecta": "Corazón",
+            "Categoria": "Ciencia",
+            "Nivel": "Fácil"
+        },
+        {
+            "Texto": "¿Cuál fue la antigua civilización que construyó las pirámides de Egipto?",
+            "Opciones": [ "Sumeria", "Egipcia", "Griega", "Romana" ],
+            "RespuestaCorrecta": "Egipcia",
+            "Categoria": "Historia",
+            "Nivel": "Medio"
+        },
+        {
+            "Texto": "¿En qué continente se encuentra el desierto del Sahara?",
+            "Opciones": [ "Asia", "África", "Sudamérica", "Oceanía" ],
+            "RespuestaCorrecta": "África",
+            "Categoria": "Cultura General",
+            "Nivel": "Fácil"
+        },
+        {
+            "Texto": "¿Qué científico desarrolló la teoría de la evolución por selección natural?",
+            "Opciones": [ "Isaac Newton", "Albert Einstein", "Charles Darwin", "Galileo Galilei" ],
+            "RespuestaCorrecta": "Charles Darwin",
+            "Categoria": "Ciencia",
+            "Nivel": "Difícil"
+        },
+        {
+            "Texto": "¿En qué batalla se decidió el fin del Imperio Napoleónico?",
+            "Opciones": [ "Batalla de Waterloo", "Batalla de Trafalgar", "Batalla de Austerlitz", "Batalla de Borodino" ],
+            "RespuestaCorrecta": "Batalla de Waterloo",
+            "Categoria": "Historia",
+            "Nivel": "Difícil"
+        },
+        {
+            "Texto": "¿Cuál es el idioma más hablado del mundo?",
+            "Opciones": [ "Español", "Inglés", "Chino mandarín", "Árabe" ],
+            "RespuestaCorrecta": "Chino mandarín",
+            "Categoria": "Cultura General",
+            "Nivel": "Medio"
+        },
+        {
+            "Texto": "¿Qué partícula se encuentra en el núcleo de un átomo?",
+            "Opciones": [ "Electrón", "Protón", "Neutrón", "Fotón" ],
+            "RespuestaCorrecta": "Protón",
+            "Categoria": "Ciencia",
+            "Nivel": "Fácil"
+        },
+        {
+            "Texto": "¿Qué ley describe la relación entre la fuerza, la masa y la aceleración?",
+            "Opciones": [ "Ley de Coulomb", "Ley de Newton", "Ley de Ohm", "Ley de Boyle" ],
+            "RespuestaCorrecta": "Ley de Newton",
+            "Categoria": "Ciencia",
+            "Nivel": "Medio"
+        },
+        {
+            "Texto": "¿Cuál es el elemento más abundante en el universo?",
+            "Opciones": [ "Helio", "Oxígeno", "Hidrógeno", "Carbono" ],
+            "RespuestaCorrecta": "Hidrógeno",
+            "Categoria": "Ciencia",
+            "Nivel": "Difícil"
+        },
+        {
+            "Texto": "¿En qué país se originó la civilización romana?",
+            "Opciones": [ "Grecia", "Italia", "Egipto", "Francia" ],
+            "RespuestaCorrecta": "Italia",
+            "Categoria": "Historia",
+            "Nivel": "Fácil"
+        },
+        {
+            "Texto": "¿Qué tratado marcó el fin de la Primera Guerra Mundial?",
+            "Opciones": [ "Tratado de Versalles", "Tratado de París", "Tratado de Ginebra", "Tratado de Tordesillas" ],
+            "RespuestaCorrecta": "Tratado de Versalles",
+            "Categoria": "Historia",
+            "Nivel": "Medio"
+        },
+        {
+            "Texto": "¿Qué civilización antigua es reconocida por construir las famosas ziggurats?",
+            "Opciones": [ "Egipcia", "Mesopotámica", "Maya", "Inca" ],
+            "RespuestaCorrecta": "Mesopotámica",
+            "Categoria": "Historia",
+            "Nivel": "Difícil"
+        },
+        {
+            "Texto": "¿Cuántos continentes hay en el mundo?",
+            "Opciones": [ "Cinco", "Seis", "Siete", "Ocho" ],
+            "RespuestaCorrecta": "Siete",
+            "Categoria": "Cultura General",
+            "Nivel": "Fácil"
+        },
+        {
+            "Texto": "¿En qué país se encuentra la Torre Eiffel?",
+            "Opciones": [ "Italia", "España", "Francia", "Reino Unido" ],
+            "RespuestaCorrecta": "Francia",
+            "Categoria": "Cultura General",
+            "Nivel": "Medio"
+        },
+        {
+            "Texto": "¿Qué tratado internacional fue firmado en 1215 y es considerado uno de los primeros pasos hacia los derechos civiles?",
+            "Opciones": [ "Tratado de Utrecht", "Magna Carta", "Tratado de Westfalia", "Pacto de Varsovia" ],
+            "RespuestaCorrecta": "Magna Carta",
+            "Categoria": "Cultura General",
+            "Nivel": "Difícil"
+        },
+        {
+            "Texto": "¿Qué órgano es vital para la respiración en los seres humanos?",
+            "Opciones": [ "Hígado", "Pulmones", "Corazón", "Riñones" ],
+            "RespuestaCorrecta": "Pulmones",
+            "Categoria": "Ciencia",
+            "Nivel": "Fácil"
+        },
+        {
+            "Texto": "¿Quién fue el líder militar que conquistó gran parte de Europa en el siglo XIX?",
+            "Opciones": [ "Napoleón Bonaparte", "Alejandro Magno", "Julio César", "Genghis Khan" ],
+            "RespuestaCorrecta": "Napoleón Bonaparte",
+            "Categoria": "Historia",
+            "Nivel": "Medio"
+        },
+        {
+            "Texto": "¿Cuál es el deporte más popular del mundo?",
+            "Opciones": [ "Baloncesto", "Fútbol", "Tenis", "Béisbol" ],
+            "RespuestaCorrecta": "Fútbol",
+            "Categoria": "Cultura General",
+            "Nivel": "Fácil"
+        },
+        {
+            "Texto": "¿Qué teoría explica el origen del universo mediante una gran explosión?",
+            "Opciones": [ "Teoría del Big Bang", "Teoría de la Relatividad", "Teoría Cuántica", "Teoría del Caos" ],
+            "RespuestaCorrecta": "Teoría del Big Bang",
+            "Categoria": "Ciencia",
+            "Nivel": "Difícil"
+        },
+        {
+            "Texto": "¿Qué faraón egipcio es famoso por su tumba intacta descubierta en 1922?",
+            "Opciones": [ "Ramsés II", "Tutankamón", "Cleopatra", "Akhenaton" ],
+            "RespuestaCorrecta": "Tutankamón",
+            "Categoria": "Historia",
+            "Nivel": "Difícil"
+        },
+        {
+            "Texto": "¿Qué fenómeno natural se produce cuando la Tierra se encuentra entre el Sol y la Luna?",
+            "Opciones": [ "Eclipse lunar", "Eclipse solar", "Aurora boreal", "Mareas altas" ],
+            "RespuestaCorrecta": "Eclipse lunar",
+            "Categoria": "Cultura General",
+            "Nivel": "Medio"
+        }
+    ]
+}

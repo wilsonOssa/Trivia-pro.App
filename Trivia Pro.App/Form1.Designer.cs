@@ -85,19 +85,19 @@
             this.lblPregunta.AutoSize = true;
             this.lblPregunta.Location = new System.Drawing.Point(12, 162);
             this.lblPregunta.Name = "lblPregunta";
-            this.lblPregunta.Size = new System.Drawing.Size(35, 13);
+            this.lblPregunta.Size = new System.Drawing.Size(50, 13);
             this.lblPregunta.TabIndex = 4;
-            this.lblPregunta.Text = "label3";
+            this.lblPregunta.Text = "Pregunta";
             // 
             // rbOpcionA
             // 
             this.rbOpcionA.AutoSize = true;
             this.rbOpcionA.Location = new System.Drawing.Point(15, 179);
             this.rbOpcionA.Name = "rbOpcionA";
-            this.rbOpcionA.Size = new System.Drawing.Size(85, 17);
+            this.rbOpcionA.Size = new System.Drawing.Size(69, 17);
             this.rbOpcionA.TabIndex = 5;
             this.rbOpcionA.TabStop = true;
-            this.rbOpcionA.Text = "radioButton1";
+            this.rbOpcionA.Text = "Opcion A";
             this.rbOpcionA.UseVisualStyleBackColor = true;
             // 
             // rbOpcionB
@@ -105,10 +105,10 @@
             this.rbOpcionB.AutoSize = true;
             this.rbOpcionB.Location = new System.Drawing.Point(127, 179);
             this.rbOpcionB.Name = "rbOpcionB";
-            this.rbOpcionB.Size = new System.Drawing.Size(85, 17);
+            this.rbOpcionB.Size = new System.Drawing.Size(69, 17);
             this.rbOpcionB.TabIndex = 6;
             this.rbOpcionB.TabStop = true;
-            this.rbOpcionB.Text = "radioButton2";
+            this.rbOpcionB.Text = "Opcion B";
             this.rbOpcionB.UseVisualStyleBackColor = true;
             // 
             // rbOpcionC
@@ -116,10 +116,10 @@
             this.rbOpcionC.AutoSize = true;
             this.rbOpcionC.Location = new System.Drawing.Point(12, 202);
             this.rbOpcionC.Name = "rbOpcionC";
-            this.rbOpcionC.Size = new System.Drawing.Size(85, 17);
+            this.rbOpcionC.Size = new System.Drawing.Size(69, 17);
             this.rbOpcionC.TabIndex = 7;
             this.rbOpcionC.TabStop = true;
-            this.rbOpcionC.Text = "radioButton3";
+            this.rbOpcionC.Text = "Opcion C";
             this.rbOpcionC.UseVisualStyleBackColor = true;
             // 
             // rbOpcionD
@@ -127,10 +127,10 @@
             this.rbOpcionD.AutoSize = true;
             this.rbOpcionD.Location = new System.Drawing.Point(127, 202);
             this.rbOpcionD.Name = "rbOpcionD";
-            this.rbOpcionD.Size = new System.Drawing.Size(85, 17);
+            this.rbOpcionD.Size = new System.Drawing.Size(70, 17);
             this.rbOpcionD.TabIndex = 8;
             this.rbOpcionD.TabStop = true;
-            this.rbOpcionD.Text = "radioButton4";
+            this.rbOpcionD.Text = "Opcion D";
             this.rbOpcionD.UseVisualStyleBackColor = true;
             // 
             // btnEnviarRespuesta
@@ -155,9 +155,9 @@
             this.lblPuntaje.AutoSize = true;
             this.lblPuntaje.Location = new System.Drawing.Point(12, 338);
             this.lblPuntaje.Name = "lblPuntaje";
-            this.lblPuntaje.Size = new System.Drawing.Size(35, 13);
+            this.lblPuntaje.Size = new System.Drawing.Size(43, 13);
             this.lblPuntaje.TabIndex = 11;
-            this.lblPuntaje.Text = "label3";
+            this.lblPuntaje.Text = "Puntaje";
             // 
             // btnReiniciar
             // 
@@ -167,6 +167,7 @@
             this.btnReiniciar.TabIndex = 12;
             this.btnReiniciar.Text = "Reiniciar";
             this.btnReiniciar.UseVisualStyleBackColor = true;
+            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
             // 
             // tmrTemporizador
             // 

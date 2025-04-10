@@ -9,22 +9,28 @@ namespace Trivia_Pro.App
 {
     public static class PreguntaFactory
     {
-        // Almacena los DTOs cargados desde el JSON
-        private static List<PreguntaDTO> _preguntasCargadas;
+        private static List<PreguntaDTO> _preguntasOriginales;
+        private static List<PreguntaDTO> _preguntasDisponibles;
         private static readonly Random _random = new Random();
 
-        // Cargar las preguntas del JSON en el constructor estático
         static PreguntaFactory()
         {
             try
             {
-                _preguntasCargadas = CargarPreguntasDesdeJSON();
+                _preguntasOriginales = CargarPreguntasDesdeJSON();
+                RecargarPreguntas();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error al cargar preguntas: " + ex.Message);
-                _preguntasCargadas = new List<PreguntaDTO>();
+                _preguntasOriginales = new List<PreguntaDTO>();
+                _preguntasDisponibles = new List<PreguntaDTO>();
             }
+        }
+
+        public static void RecargarPreguntas()
+        {
+            _preguntasDisponibles = new List<PreguntaDTO>(_preguntasOriginales);
         }
 
         private static List<PreguntaDTO> CargarPreguntasDesdeJSON()
@@ -35,54 +41,52 @@ namespace Trivia_Pro.App
             return root.Preguntas;
         }
 
-        // Devuelve una pregunta aleatoria y única según la categoría y nivel indicados
-        public static Pregunta ObtenerPreguntaAleatoria(string categoria, string nivel)
+        public static List<Pregunta> ObtenerPreguntasAleatorias(string categoria, string nivel)
         {
-            var preguntasFiltradas = _preguntasCargadas
-                .Where(p => p.Categoria.Equals(categoria, StringComparison.OrdinalIgnoreCase)
-                         && p.Nivel.Equals(nivel, StringComparison.OrdinalIgnoreCase))
+            // Obtener preguntas filtradas por categoría y nivel
+            var preguntasFiltradas = _preguntasDisponibles
+                .Where(p =>
+                    p.Categoria.Equals(categoria, StringComparison.OrdinalIgnoreCase) &&
+                    p.Nivel.Equals(nivel, StringComparison.OrdinalIgnoreCase)
+                )
+                .OrderBy(p => _random.Next()) // Mezclar preguntas
                 .ToList();
 
-            if (preguntasFiltradas.Count == 0)
+            // Eliminar las preguntas seleccionadas de la lista disponible
+            foreach (var pregunta in preguntasFiltradas)
             {
-                return null;
+                _preguntasDisponibles.Remove(pregunta);
             }
 
-            int indice = _random.Next(preguntasFiltradas.Count);
-            PreguntaDTO preguntaDTO = preguntasFiltradas[indice];
-
-            // Elimina la pregunta seleccionada para evitar repeticiones en la sesión
-            _preguntasCargadas.Remove(preguntaDTO);
-
-            return CrearPregunta(preguntaDTO);
+            return preguntasFiltradas.Select(p => CrearPregunta(p)).ToList();
         }
 
-        // Crea una instancia concreta de Pregunta según el nivel indicado
         public static Pregunta CrearPregunta(PreguntaDTO preguntaDTO)
         {
             Pregunta pregunta;
-            switch (preguntaDTO.Nivel)
+            switch (preguntaDTO.Nivel.ToLower()) // Convertir a minúsculas
             {
-                case "Fácil":
+                case "fácil":
                     pregunta = new PreguntaFacil();
                     break;
-                case "Medio":
+                case "medio":
                     pregunta = new PreguntaMedia();
                     break;
-                case "Difícil":
+                case "difícil":
                     pregunta = new PreguntaDificil();
                     break;
                 default:
-                    throw new ArgumentException("Nivel no válido");
+                    throw new ArgumentException($"Nivel no válido: {preguntaDTO.Nivel}");
             }
 
-            // Copiar las propiedades del DTO a la instancia de Pregunta
+            // Asignar propiedades
             pregunta.Texto = preguntaDTO.Texto;
             pregunta.Opciones = preguntaDTO.Opciones;
             pregunta.RespuestaCorrecta = preguntaDTO.RespuestaCorrecta;
             pregunta.Categoria = preguntaDTO.Categoria;
             pregunta.Nivel = preguntaDTO.Nivel;
-            return pregunta;
+
+            return pregunta; // Retorno garantizado
         }
     }
 }
